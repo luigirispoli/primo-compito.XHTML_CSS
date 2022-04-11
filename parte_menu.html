@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+   <title> Primo compito </title>
+   <link rel="stylesheet" href="parte_menu.css" />
+   
+</head>
+
+<body>
+   <div class="titolo">
+       <strong> Documentazione su CSS e XHTML </strong>
+   </div>
+   
+   <div class="immagine">
+     <img src="coding.png" width="300px" /><br />
+   </div>
+   
+   <div class="menu">
+       <ul style="list-style-type: square;">
+	     <li><a href="#primo"> Introduzione su HTML  </a></li>
+		 <li><a href="#secondo">  Perché scegliere XHTML </a>
+		    <ul style="list-style-type: lower-alpha;"> 
+			  <li><a href="#secondo-a"> Contenuti e presentazione </a></li>
+			  <li><a href="#secondo-b"> XHTML da buone abitudini  </a></li>
+			</ul>
+		 </li>
+		 <li><a href="#terzo">  Sintassi di XHTML </a></li>
+	   </ul>	   
+   </div>
+   <div class="sezione">
+     <h2 id="primo"> Introduzione su HTML </h2>
+     <p>
+       Dall'inizio degli anni Novanta, il World Wide Web (WWW) ha interessato tutti gli scrittori.
+       Da allora, ovunque, in qualsiasi momento,può pubblicare sul WWW.     
+	</p>
+	<p>
+	   <h3>HyperText Markup Language (HTML) </h3>
+	   Questo linguaggio richiede una sintassi e un vocabolario molto semplici,ma ciononostante il markup non valido rappresenta oltre il 90% 
+	   delle pagine web trovate su Internet. Per molte ragioni, il browser Internet Explorer favorisce questa scarsa qualità HTML e visualizza 
+	   senza alcun messaggio di errore documenti HTML mal formati, correggendo a suo modo le carenze del suddetto documento, portando gli artisti 
+	   del web a un esercizio di mediocrità. <br />
+	   Questa pagina si rivolge ad autori che utilizzano il web come mezzo e che vogliono sapere come migliorare la qualità del proprio lavoro
+	   consentendo al 100% l'accessibilità dei contenuti - e almeno una buona presentazione - con i principali browser web. <br />
+	   Il browser più avanzato per confrontare conformità e rispetto degli standard si chiama Mozilla Firefox. Poiché tutti i browser un giorno o 
+	   l'altro devono essere conformi agli standard come loro, questo documento dà per scontato ciò che viene offerto da Mozilla e Firefox e fornisce i 
+	   mezzi per mantenere la compatibilità con i browser non ancora presenti.
+	</p>
+	 
+	 <hr />
+	 
+	 <h2 id="secondo"> Perché scegliere XHTML </h2>
+     <p>
+        <h3 id="secondo-a">Contenuti e presentazione </h3>
+        Prima regola: separare i contenuti dalla sua presentazione. <br />
+        L'HTML della metà degli anni Novanta obbligava gli autori a mischiare in uno stesso documento colori, testo, immagini di sfondo, spaziature, figure 
+		e così via.	<br />L'esperienza ha dimostrato che mescolare insieme contenuto e presentazione comporta una serie di svantaggi:	
+		  <ol style="list-style-type: lower-roman;">
+		    <li>  
+ 			   <h4> Difficoltà di manutenzione </h4> 
+                Contrariamente ai media convenzionali, una pagina web può evolversi come desidera l'autore. Quando il contenuto e la presentazione 
+				condividono lo stesso spazio, una semplice modifica come cambiare tutti i colori dei link diventa un incub. 
+			</li>
+			<li>
+			   <h4> Collaborazione difficile </h4> 
+			   A volte un autore vorrebbe inviare tutti gli aspetti visivi a un designer. Se un file contiene sia il contenuto che la presentazione, 
+			   il lavoro parallelo diventa un pericolo.
+			</li>
+			<li>
+			   <h4> Riutilizzo impossibile </h4> 
+			   Per una raccolta di pagine, spesso sorge la necessità di una presentazione simile. Copiare le stesse informazioni di presentazione da una 
+			   pagina all'altra: un lavoro frustrante soggetto a errori. E poi il colore di sfondo deve cambiare per tutte le pagine e l'incubo ritorna.
+			</li>
+			<li>
+			   <h4> Tecniche dubbie </h4> 
+               Per controllare alcuni aspetti della presentazione nell'infanzia del web, sono stati inventati trucchi accurati, ma portati con sé cattive 
+			   abitudini. Trucchi come usare immagini trasparenti vuote per spostare il testo. Utilizzo di tag proprietari che non funzionano in altri browser.
+			   Trasformare i bug nei browser a proprio vantaggio. Questi metodi, sebbene brillanti e utili ai loro tempi, sono ora obsoleti e rompono sia 
+			   l'eleganza strutturale che la coerenza. 
+			</li>
+		  </ol>
+     </p>
+	 <p>
+	   <h3 id="secondo-b"> XHTML dà buone abitudini </h3>
+	   eXtensible HyperText Markup Language (XHTML) è diventato una raccomandazione ufficiale nel 2000; essenzialmente una riformulazione HTML secondo le 
+	   regole dell'eXtensible Markup Language (XML). XHTML richiede più rigore, ma rimane comunque abbastanza vicino all'HTML. <br /> 
+	   Uno dei maggiori vantaggi dell'utilizzo di XHTML: costruito su XML, ogni strumento XML diventa disponibile, consentendo un'ampia gamma di manipolazioni 
+	   dei dati del documento. Queste trasformazioni consentono facilmente la condivisione di dati con database, file di configurazione, servizi Web 
+	   (SOAP, XML-RPC) e molti altri linguaggi basati su XML.. <br />
+       Diventa quindi molto più semplice trasformare un documento Web in altri media come telefoni cellulari, WebTV, stampa tradizionale e PDA. 
+	   L'informazione diventa libera dal suo supporto.
+	 </p>
+	 
+	 <hr />
+	 
+	 <h2 id="terzo"> Sintassi di XHTML </h2>
+     <p>
+	   <h3> Differenze tra HTML e XHTML </h3>
+	   Per costruire un documento XHTML, tutte le regole seguenti devono essere seguite esattamente:
+         <ul>
+		   <li>
+		      <h4> Dichiarazione di XML </h4>
+		   Sebbene sia opzionale, deve essere aggiunto se il set di caratteri differisce da UTF-8 o UTF-16 quando questo set di caratteri non è già definito 
+		   da un protocollo di livello superiore. Anche alcuni parser XML ne hanno bisogno. 
+		   Ad esempio: &lt;?xml version="1.0" encoding="koi-8r"?&gt;
+		  </li>
+		  <li>
+		    <h4>Dichiarazione dello spazio dei nomi dell'elemento radice &lt;html&gt; </h4>
+			Tutti i documenti XML contengono un elemento radice, che racchiude tutti gli altri elementi (tranne le dichiarazioni precedenti). 
+			Per XHTML, l'elemento radice è chiamato &lt;html&gt;. <br />
+			Questo elemento deve dire da quale spazio dei nomi proviene. Questa relazione viene stabilita con l'attributo xmlns: 
+			&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt; <br />
+            Una buona abitudine: includere contemporaneamente la lingua utilizzata nel documento, con l'attributo xml:lang:        
+			&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"&gt;
+		  </li>
+		  <li>
+		     <h4> Tutti i tag devono essere scritti in minuscolo </h4>
+			 In XHTML, &lt;BODY&gt; non esiste. Questo elemento è chiamato &lt;body&gt;.
+		  </li>
+		  <li>
+		     <h4> Tutti i tag devono essere chiusi </h4>
+			 Per ogni tag aperto, un tag di chiusura. Se un tag non circonda nulla (come fanno &lt;img&gt;, &lt;hr&gt; e &lt;br&gt;), è necessario 
+			 aggiungere una barra. 
+			 Invece di &lt;br&gt;, usa &lt;br /&gt;.
+		  </li>
+		 </ul>
+     </p>
+     </div>
+</body>
+
+</html>
