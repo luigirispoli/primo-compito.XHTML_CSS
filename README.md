@@ -6,6 +6,7 @@ La pagina iniziale comprende un menu con "x" scelte:
 - introduzione su XHTML
 - perche scegliere XHTML
 - sintassi di XHTML
+
 Nella prima pagina viene introdotto XHTML con alcune spiegazioni, nelle altre scelte del menu ci saranno link collegati ad altre pagine dove verrà spiegato il CSS.
 💻 🛸
 
