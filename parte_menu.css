@@ -49,6 +49,19 @@ body {
 	color: white;	
 }
 
+.tabella{
+	position: absolute;
+	top: 20%;
+	left: 30%;
+	background-color: Silver;
+	border-color: Gray;
+	border-style: ridge;	
+}
+
+.tabella td{
+	font-size: 20px;	
+}
+
 :link{
 	color: black;
 }
