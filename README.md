@@ -10,3 +10,7 @@ La pagina iniziale comprende un menu con "x" scelte:
 Nella prima pagina viene introdotto XHTML con alcune spiegazioni, nelle altre scelte del menu ci saranno link collegati ad altre pagine dove verrà spiegato il CSS.
 💻 🛸
 
+---
+
+> **mt**
+> ok, qui all fine inserite anche il contenuto del README.txt previsto dall'homework, ok?
