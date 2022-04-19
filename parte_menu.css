@@ -35,6 +35,20 @@ body {
     font-size: 20px;	
 }
 
+.codice{
+	position: absolute;
+	top: 100%;
+	left: 2%;
+	border:20px;
+	border-style: ridge;
+	padding: 0%;
+	width: 50%;
+	height: 25%;
+	overflow: auto;
+	background: black;
+	color: white;	
+}
+
 :link{
 	color: black;
 }
