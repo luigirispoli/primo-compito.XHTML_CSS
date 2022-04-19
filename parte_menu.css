@@ -35,20 +35,6 @@ body {
     font-size: 20px;	
 }
 
-.codice{
-	position: absolute;
-	top: 100%;
-	left: 2%;
-	border:20px;
-	border-style: ridge;
-	padding: 0%;
-	width: 50%;
-	height: 25%;
-	overflow: auto;
-	background: black;
-	color: white;	
-}
-
 .tabella{
 	position: absolute;
 	top: 20%;
@@ -59,7 +45,7 @@ body {
 }
 
 .tabella td{
-	font-size: 20px;	
+   font-size: 20px;	
 }
 
 :link{
@@ -91,4 +77,22 @@ body {
 .sezione{
 	 position: absolute;
 	 top: 100%;
+}
+
+html,body,.container{ 
+	height: 100%; 
+	margin: 0; 
+	padding: 0; 
+}
+
+.base{
+	position: absolute;
+	bottom: 0%;
+	left: 0%;
+}
+
+.spiegazione{
+	position: absolute;
+	bottom: 0%;
+	right: 0%;
 }
