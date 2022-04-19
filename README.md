@@ -13,4 +13,4 @@ Nella prima pagina viene introdotto XHTML con alcune spiegazioni, nelle altre sc
 ---
 
 > **mt**
-> ok, qui all fine inserite anche il contenuto del README.txt previsto dall'homework, ok?
+> ok, qui all fine inserisca anche il contenuto del README.txt previsto dall'homework, ok?
