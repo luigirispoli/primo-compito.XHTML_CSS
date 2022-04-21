@@ -8,7 +8,7 @@ body {
     left: 0%;
     margin: 15px;
 	border: 10px;
-	
+	z-index: 6;
 }
 
 .pulsante{
@@ -35,12 +35,14 @@ body {
 	 border-style:ridge;
 	 padding: 10px;
 	 background-color: DarkSeaGreen;
+	 z-index: 2;
 	
 }
 
 .immagine{
 	position: absolute;
 	top: 30%;
+	z-index: 1;
 }
 
 .menu{
@@ -52,6 +54,7 @@ body {
 	border-color: Gray;
 	border-style: ridge;
     font-size: 20px;	
+	z-index: 5;
 }
 
 .codice{
@@ -65,7 +68,8 @@ body {
 	height: 25%;
 	overflow: auto;
 	background: black;
-	color: white;	
+	color: white;
+    z-index: 4;	
 }
 
 .tabella{
@@ -110,4 +114,5 @@ body {
 .sezione{
 	 position: absolute;
 	 top: 100%;
+	 z-index: 3;
 }
