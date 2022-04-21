@@ -3,25 +3,90 @@
 <head>
    <title> Primo compito </title>
    <link rel="stylesheet" href="parte_menu.css" />
-   
 </head>
 
 <body>
    <div class="titolo">
-       <strong> Documentazione su CSS e XHTML </strong>
+       <strong> Documentazione su CSS </strong>
    </div>
    
    <div class="immagine">
-     <img src="coding.png" width="300px" /><br />
+     <img src="immagine_css.png" width="300px" /><br />
    </div>
-   <div class="menu">
-      <p>qui ci sara la spiegazione di css</p>
+   
+   <div class="menu_css">
+      <ul style="list-style-type: square;">
+	     <li><a href="#primo"> Introduzione su CSS  </a></li>
+		 <li><a href="#secondo">  Classi e id </a></li>
+		 <li><a href="#terzo">  Gestione del testo </a>
+		    <ul style="list-style-type: circle;"> 
+			  <li><a href="#terzo-a"> Personalizzare i link </a></li>
+			  <li><a href="#terzo-b"> Gestione del font </a></li>
+			</ul>
+		 </li>
+		 <li><a href="https://meiert.com/en/indices/css-properties/"> Raccolta di proprietà CSS </a></li>
+	  </ul>	   
    </div>
-   <div class="spiegazione">
-	<a href="parte_menu.html"><button>HTML</button></a>
+   <div class="sezione">
+     <h2 id="primo"> Introduzione su CSS </h2>
+     <p>
+      L'acronimo CSS sta per Cascading Style Sheets (fogli di stile a cascata) e designa un linguaggio di stile per i documenti web. 
+	  I CSS istruiscono un browser o un altro programma utente su come il documento debba essere presentato all'utente, per esempio definendone i font,
+	  i colori, le immagini di sfondo, il layout, il posizionamento delle colonne o di altri elementi sulla pagina, etc.
+	</p>
+	<p>
+	  <h3> La storia dei CSS </h3>
+      La storia dei CSS procede su binari paralleli rispetto a quelli di HTML, di cui vuole essere l'ideale complemento. 
+	  Da sempre infatti, nelle intenzioni degli uomini del W3C, HTML dovrebbe essere visto semplicemente come un linguaggio strutturale, 
+	  alieno da qualunque scopo attinente la presentazione di un documento. <br />
+      Per questo obiettivo, ovvero arricchire l'aspetto visuale e la presentazione di una pagina, lo strumento designato sono appunto i CSS. 
+	  L'ideale perseguito da anni si può sintetizzare con una nota espressione: separare il contenuto dalla presentazione.
+    </p>	
+	<p>
+	  <h3> Cascading style sheet </h3>
+	  La specifica CSS definisce i modi con cui scrivere regole di stile ed applicarle ad una pagina, determinandone cosi’ la visualizzazione.
+      Una regola di stile e` un insieme di definizioni(comandi di stile) che, assegnata ad uno o piu’ elementi, indica al browser come dovra’ avvenire la 
+	  presentazione complessiva di quegli elementi.
+    </p>
+	
+	<hr />
+	
+    <h2 id="secondo"> Classi e id </h2>
+    <p>
+     Un metodo molto utilizzato per distinguere e/o accumunare gli elementi all’interno dei documenti HTML consiste nell’utilizzare due strumenti 
+	 fondamentali: id e classi. <br />
+     Gli ID consentono di identificare univocamente qualsiasi elemento della pagina. Per sua definizione, è possibile assegnare un ID ad un solo elemento. 
+	 Nel CSS è identificato dal carattere # anteposto al nome. <br />
+	 L’utilizzo degli ID è adatto soprattutto per la realizzazione del layout di pagina. Consente, infatti, di contraddistinguere univocamente le sezioni
+	 della pagina e di assegnarne lo stile senza problemi di conflitti. 
+     Le classi consentono di assegnare uno stesso stile a più elementi, anche diversi tra loro. Per definizione, quindi, possono essere assegnate a più 
+	 elementi della stessa pagina
+	</p>
+
+    <hr />
+
+    <h2 id="terzo"> Gestione del testo </h2>
+    <p>
+      <h3 id="terzo-a">Personalizzare i link</h3>
+        E' possibile personalizzare ogni proprietà dell'elemento &lt;a&gt;, quello che ci consente di inserire collegamenti ipertestuali nella nostra pagina. 
+		Possiamo definirne il colore, la dimensione del testo, il colore di sfondo e così via. <br />
+        Nei moderni layout, però, una pagina non utilizza lo stesso sfondo e/o colore del testo in ogni sezione quindi assegnare un unico stile a tutti i
+		collegamenti potrebbe portare a risultati indesiderati: testi illeggibili, formattazione errata, etc. <br />
+        Ci sono alcune proprietà che sono comuni a tutti i link, indipendentemente dalla sezione in cui sono contenuti nella pagina. Queste proprietà è buona 
+		norma inserirle una sola volta all'inizio del foglio di stile per evitare inutili ripetizioni che comportano spreco di spazio e prestazioni.		
+	</p>
+    <p>
+      <h3 id="terzo-b">Gestione del font</h3>
+      I font installati sui PC degli utenti non sono gli stessi per ognuno. Il set di caratteri a disposizione dipende da molte variabili, come ad esempio 
+	  il sistema operativo. Quando bisogna scegliere il carattere per una pagina, quindi, bisogna tener conto che non tutti gli utenti avranno installato un 
+	  certo font sul proprio PC. <br />
+	  La prima soluzione a questo problema consiste nell’utilizzare i cosiddetti caratteri “web-safe”(Verdana, Georgia, Times New Roman, etc.), ovvero un set 
+	  di caratteri compatibili con tutti i sistemi operativi. <br />
+	  Per garantire, invece, alternative valide a tutti i sistemi in maniera da rendere compatibile la pagina in qualunque situazione, è consigliato fare uso 
+	  della tecnica denominata font-stack.
+	</p>  	
+
    </div>
-   <div class="base">
-	<a href="index.html"><button>indice</button></a>
-   </div>
+	
 </body>
 </html>
