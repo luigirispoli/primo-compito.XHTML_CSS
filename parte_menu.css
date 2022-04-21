@@ -34,9 +34,9 @@ body {
 	 border-color: Gray;
 	 border-style:ridge;
 	 padding: 10px;
+	 padding-right: 165px;
 	 background-color: DarkSeaGreen;
 	 z-index: 2;
-	
 }
 
 .immagine{
@@ -53,7 +53,7 @@ body {
 	background-color: Silver;
 	border-color: Gray;
 	border-style: ridge;
-    font-size: 20px;	
+        font-size: 20px;	
 	z-index: 5;
 }
 
