@@ -37,6 +37,7 @@ body {
 	 padding-right: 165px;
 	 background-color: DarkSeaGreen;
 	 z-index: 2;
+	
 }
 
 .immagine{
@@ -53,7 +54,7 @@ body {
 	background-color: Silver;
 	border-color: Gray;
 	border-style: ridge;
-        font-size: 20px;	
+    font-size: 20px;	
 	z-index: 5;
 }
 
@@ -115,4 +116,16 @@ body {
 	 position: absolute;
 	 top: 100%;
 	 z-index: 3;
+}
+
+.menu_css{
+	position: absolute;
+	top: 20%;
+	left: 30%;
+	padding-right: 270px;
+	background-color: Wheat;
+	border-color: Navy;
+	border-style: groove;
+    font-size: 20px;	
+	z-index: 5;
 }
