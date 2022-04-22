@@ -1,11 +1,11 @@
-body {
+﻿body {
 	background: LightSteelBlue;
 }
 
 .pulsanti{
     position: absolute;
-    top: 0%;
-    left: 0%;
+    top: 25%;
+    left: 40%;
     margin: 15px;
 	border: 10px;
 	z-index: 6;
