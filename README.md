@@ -3,6 +3,7 @@ Primo compito rappresentativo su XHTML_CSS
 
 Il sito è un sito di documentazione su XHTML e CSS, abbiamo preso spunto dall esercizio proposto nelle Slides-lezione2 (CSS-14), sono presenti 3 file 
 .html(index, parte_html, parte_css) e un file parte_menu.css con le regole di stile usate nei file .html.
+
 Iì file index.html prevede la possibilità di scegliere la documentazione su HTML o su CSS
 Il file parte_html.html prevede un menu con diverse scelte, la documentazione su XHTML è divisa come nel menu per argomenti/blocchi.
 Il file parte_css.html prevede un menu con diverse scelte, la documentazione è divisa come nel menu per argomenti/blocchi.
