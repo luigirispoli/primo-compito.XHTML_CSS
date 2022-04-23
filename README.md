@@ -8,8 +8,8 @@ Il file parte_html.html prevede un menu con diverse scelte, la documentazione su
 Il file parte_css.html prevede un menu con diverse scelte, la documentazione è divisa come nel menu per argomenti/blocchi.
 
 
-Argomenti trattati in parte_menu.css: external stylesheet(regole di stile definite nel file parte_menu.css), pseudo classi(:link e :visited presenti in parte_menu.css), posizionamento 
-degli elementi
+Argomenti trattati in parte_menu.css: external stylesheet(regole di stile definite nel file parte_menu.css), pseudo classi(:link e :visited presenti in parte_menu.css), posizionamento degli elementi.
+
 Argomenti trattati nei file.html: link esterno, link all'interno della stessa pagina, tabelle, liste con diversi stili, uso di immagini, pulsanti.
 
 Sito documentazione su XHTML / HTML nel file parte_html.html è stata presa e riadattata dal sito http://ptaff.ca/xhtml/?lang=en_CA presente nella parte delle 
@@ -17,6 +17,7 @@ risorse delle slides-lezione2.
 
 Siti documentazione su CSS nel file parte_css.html : https://www.html.it/pag/14209/introduzione1/
                                                      https://www.html.it/guide/guida-css-tecniche-essenziali/
+                                                     
 Proprietà CSS(link presente nelle risorse delle slides-lezione2): https://meiert.com/en/indices/css-properties/
 
 
