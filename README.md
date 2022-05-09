@@ -26,7 +26,7 @@ Indirizzo del repository GitHub: https://github.com/luigirispoli/primo-compito.X
 Gruppo formato da: Luig Rispoli ; Luca Pettisano
 
 Indirizzo lweb Luigi Rispoli: http://lweb.diag.uniroma1.it/~lweb36/luigi.rispoli.XHTML_CSS/
-Indirizzo lweb Luca Pettisano:
+Indirizzo lweb Luca Pettisano:http://lweb.diag.uniroma1.it/~lweb27/pettisano_luca_xhtml_css/
 
 
 
