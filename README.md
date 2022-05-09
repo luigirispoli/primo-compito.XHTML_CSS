@@ -24,6 +24,8 @@ Proprietà CSS(link presente nelle risorse delle slides-lezione2): https://meier
 
 Indirizzo del repository GitHub: https://github.com/luigirispoli/primo-compito.XHTML_CSS.git
 Gruppo formato da: Luig Rispoli ; Luca Pettisano
+
+Indirizzo lweb Luigi Rispoli: http://lweb.diag.uniroma1.it/~lweb36/luigi.rispoli.XHTML_CSS/
 💻 🛸
 
 ---
